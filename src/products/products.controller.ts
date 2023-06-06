@@ -26,6 +26,10 @@ export class ProductsController {
   async createUser(id: string, username: string) {
     return await this.productsService.createUser(id, username)
   }
+  @Get()
+  async userFind() {
+    return "dsadas"
+  }
 
 
 
